@@ -1,3 +1,8 @@
+## Pre Course 
+
+https://www.youtube.com/watch?v=Ukg_U3CnJWI
+
+
 ## Basic Javascript Syntax
 
 1. Basic Javascript statement Syntax
@@ -121,6 +126,10 @@
         lastName: "Bond",
         salary: 120000,
     }
+    
+    // Access the object
+    console.log(person.lastName)
+    console.log(person["firstName"])
     ````
 ### Quiz 
 
