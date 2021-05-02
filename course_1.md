@@ -134,7 +134,8 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
 ### Quiz 
 
 1. Define an object that describes a cirle in the X-Y plane
-1. rewrite the slope function using object
+2. Define an object that describes a cat
+3. rewrite the slope function using object
   
   ````
   function slope(point1, point2) {
@@ -142,6 +143,5 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
   // Please define point1 and point2 below
   // end of definition
   console.log(slope(point1, point2))
-  ````
-    
+  ````  
     
