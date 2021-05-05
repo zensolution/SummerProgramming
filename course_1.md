@@ -76,11 +76,23 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         Use Math library to print the maximum value of 5.4^3 and 3.5^4
         ````
 
-
 1. String
     ````
-    let x = "Hello";
+    var name = "John Doe";
+    
+    // String length
+    var sln = name.length; 
+    
+    //Character Access
+    console.log(name.charAt(1))
+    
+    //Join two string
+    var firstName = "Tom"
+    var lastName = "Brady"
+    var fullName = firstName + " " + lastName
+    console.log(fullName)
     ````
+    
 1. Bool  
     ````
     let x = true;
