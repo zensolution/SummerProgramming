@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         What is the value of 5 % 2?
         ````
     
-    **Math Library:**
+    **Math Library:** 
         ````
         // JavaScript provides a Math library. The below are some frequently used function 
         console.log(Math.max(1, 3, 2));
@@ -70,30 +70,65 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         console.log(Math.round(0.9));
 
         console.log(Math.round(1.1));
-        ````
+        ````        
     **Quiz:**
         ````
         Use Math library to print the maximum value of 5.4^3 and 3.5^4
         ````
+    **Reference:**
+        More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
 
 1. String
     ````
     var name = "John Doe";
     
-    // String length
+    // return length of a string
     var sln = name.length; 
     
-    //Character Access
-    console.log(name.charAt(1))
+    // return a new string that located at the specified offset of the string.
+    console.log(name.charAt(5))
     
     //Join two string
     var firstName = "Tom"
     var lastName = "Brady"
     var fullName = firstName + " " + lastName
     console.log(fullName)
-    ````
     
+    // determines whether a string begins with the characters of a specified string
+    const str1 = 'Saturday night plans';
+    console.log(str1.startsWith('Sat'));
+    
+    // returns the index within the calling String object of the first occurrence of the specified value
+    const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+    const searchTerm = 'dog';
+    const indexOfFirst = paragraph.indexOf(searchTerm);
+    
+    // returns the part of the string between the start and end indexes, or to the end of the string.
+    const str = 'Mozilla';
+    console.log(str.substring(1, 3));
+    console.log(str.substring(2));
+    ````
+    **Quiz:**
+        ````
+        Find if "of" exits in the string "This is the best time, this is the worst time"
+        Find the 8th character in the string "This is the best time, this is the worst time"
+        ````
+    **Reference:**
+        More String library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   
+1. Character
+    ````
+    // Convert a number to a string
+    var x = 68
+    console.log(String.fromCharCode(x))
+    
+    // Convert a string to number
+    console.log("a".charCodeAt(0))
+    ````
 1. Bool  
+    ````
+    let x = true;
+    ````
+1. Data Type conversion
     ````
     let x = true;
     ````
