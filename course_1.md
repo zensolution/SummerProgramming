@@ -146,3 +146,32 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     console.log(y)
     console.log(typeof(y))
     ````
+
+## Object
+
+    Some kinds of key-value pair. for example, 
+    
+    ````
+    let person = {
+        firstName: "James",
+        lastName: "Bond",
+        salary: 120000,
+    }
+    
+    // Access the object
+    console.log(person.lastName)
+    console.log(person["firstName"])
+    ````
+### Quiz 
+
+1. Define an object that describes a cirle in the X-Y plane
+2. Define an object that describes a cat
+3. rewrite the slope function using object
+  
+  ````
+  function slope(point1, point2) {
+  }
+  // Please define point1 and point2 below
+  // end of definition
+  console.log(slope(point1, point2))
+  ````  
