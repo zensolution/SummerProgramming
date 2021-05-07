@@ -7,98 +7,144 @@
     
     // if
     if( age > 18 ) {
-       document.write("<b>Qualifies for driving</b>");
+       console.log("You are adult.");
     }
     
     // if ... else ...
     if( age > 18 ) {
-       document.write("<b>Qualifies for driving</b>");
+       console.log("You can vote.");
     } else {
-       document.write("<b>Does not qualify for driving</b>");
+       console.log("You can not vote");
     }
     
     // if ... else if ...
     var book = "maths";
     if( book == "history" ) {
-       document.write("<b>History Book</b>");
+       console.log("History Book");
     } else if( book == "maths" ) {
-       document.write("<b>Maths Book</b>");
+       console.log("Maths Book");
     } else if( book == "economics" ) {
-       document.write("<b>Economics Book</b>");
+       document.write("Economics Book");
     } else {
-       document.write("<b>Unknown Book</b>");
+       console.log("Unknown Book<");
     } 
     ````
+    
+    **Quiz**
+    
+    Implement abs function 
+    ````
+      console.log(abs(10)) // should print 10
+      console.log(abs(-10)) // should print 10
+      
+      function abs(x) {
+        // implement your code
+      }
+    ````
+    
+    Implement guess function 
+    ````
+      console.log(guess("o")) // should print "vowel sound"
+      console.log(guess("b")) // should print "consonant sound"
+      
+      // Assume they are all lower case
+      function guess(str) {
+        // implement your code
+      }
+    ````
+    
 1. while statement
     ````
     var count = 0;
-    document.write("Starting Loop ");
+    console.log("Starting Loop ");
 
     while (count < 10) {
-       document.write("Current Count : " + count + "<br />");
-       count++;
+       console.log("Current Count : " + count + "<br />");
+       count++;  // equival to count = count + 1
     }
 
-    document.write("Loop stopped!");
+    console.log("Loop stopped!");
     ````
+    **Quiz**
+    
+    What does the following code output? 
+    ````
+      var i = 0;
+      while (i < 3) {
+          println("hi");
+          i++;
+      }
+    ````
+    
+    Print repeat star
+    ````
+    loop(5)  // should output *****
+    loop(1)  // should output *
+    loop(0)  // do nothing
+    loop(-1) // should output Error
+    
+    function loop(count) {
+      //implement your code
+    }
+    ````
+    
 1. for loop
     ````
     var count;
-    document.write("Starting Loop" + "<br />");
+    console.log("Starting Loop" + "<br />");
 
     for(count = 0; count < 10; count++) {
-       document.write("Current Count : " + count );
-       document.write("<br />");
+       console.log("Current Count : " + count );
+       console.log("<br />");
     }         
-    document.write("Loop stopped!");
+    console.log("Loop stopped!");
     ````
-## function 
+    
+    **Quiz**
+    
+    Implement a reverse function
+    ````
+      reverse("Hello") // should output olleH
+      
+      //Hint. You can use String length and charAt function
+      
+      function reverse(str) {
+        var retval = ""
+        // implement your code
+        return retval
+      }
+    ````    
+    
+    Implement a reverse Integer function
+    ````
+      reverse(321) // should output 123
+      reverse(210) // should output 12
+      reverse(-123) // should output -321
+      
+      function reverse(x) {
+        // implement your code
+      }
+    ````     
+    
+1. Loop can be nested 
+1. Jumps 
 
-    Function is a reusable block of code
+    ````
+    for(count = 0; count < 10; count++) {
+       console.log(count)
+       if ( count == 3) {
+         break;
+       }
+    }         
+    ````
     
     ````
-    function sum(a, b) {
-        return a + b;
-    }
-
-    console.log(sum(1,3))
-    console.log(sum(3,5))
+    function run() {
+        for(count = 0; count < 10; count++) {
+           console.log(count)
+           if ( count == 3) {
+             return count;
+           }
+        }     
+    }    
     ````
-### Quiz 
-  
-  write a function to calculate slope? Make sure you have considered all scenario
-  
-  ````
-  function slope(x1, y1, x2, y2) {
-  }
-  console.log(slope(2,4,6,8))
-  ````
-## Object
-
-    Some kinds of key-value pair. for example, 
-    
-    ````
-    let person = {
-        firstName: "James",
-        lastName: "Bond",
-        salary: 120000,
-    }
-    
-    // Access the object
-    console.log(person.lastName)
-    console.log(person["firstName"])
-    ````
-### Quiz 
-
-1. Define an object that describes a cirle in the X-Y plane
-2. Define an object that describes a cat
-3. rewrite the slope function using object
-  
-  ````
-  function slope(point1, point2) {
-  }
-  // Please define point1 and point2 below
-  // end of definition
-  console.log(slope(point1, point2))
-  ````  
-    

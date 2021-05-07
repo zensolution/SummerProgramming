@@ -12,16 +12,16 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     let y = x + 3;
     ````
 1. Comment
-  - Online comment: //
-    ````
-    // This is a commit
-    ````
-  - Multiline comment: /* */
-    ````
-    /*
-     *  I have a lot to say
-     */ 
-    ````
+      - Online comment: //
+        ````
+        // This is a commit
+        ````
+      - Multiline comment: /* */
+        ````
+        /*
+         *  I have a lot to say
+         */ 
+        ````
 1. Print something to console
     ````
     let x = 5;
@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         What is the value of 5 % 2?
         ````
     
-    **Math Library:**
+    **Math Library:** 
         ````
         // JavaScript provides a Math library. The below are some frequently used function 
         console.log(Math.max(1, 3, 2));
@@ -70,30 +70,132 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         console.log(Math.round(0.9));
 
         console.log(Math.round(1.1));
-        ````
+        ````    
+        
     **Quiz:**
         ````
         Use Math library to print the maximum value of 5.4^3 and 3.5^4
         ````
+        
+    **Reference:**
+        More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
 
 1. String
     ````
     var name = "John Doe";
     
-    // String length
+    // return length of a string
     var sln = name.length; 
     
-    //Character Access
-    console.log(name.charAt(1))
+    // return a new string that located at the specified offset of the string.
+    console.log(name.charAt(5))
     
     //Join two string
     var firstName = "Tom"
     var lastName = "Brady"
     var fullName = firstName + " " + lastName
     console.log(fullName)
-    ````
     
+    // determines whether a string begins with the characters of a specified string
+    const str1 = 'Saturday night plans';
+    console.log(str1.startsWith('Sat'));
+    
+    // returns the index within the calling String object of the first occurrence of the specified value
+    const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+    const searchTerm = 'dog';
+    const indexOfFirst = paragraph.indexOf(searchTerm);
+    
+    // returns the part of the string between the start and end indexes, or to the end of the string.
+    const str = 'Mozilla';
+    console.log(str.substring(1, 3));
+    console.log(str.substring(2));
+    ````
+    **Quiz:**
+        
+        Find if "of" exits in the string "This is the best time, this is the worst time"
+        
+        Find the 8th character in the string "This is the best time, this is the worst time"
+    
+    **Reference:**
+        
+        More String library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   
+1. Character
+    ````
+    // Convert a number to a string
+    var x = 68
+    console.log(String.fromCharCode(x))
+    
+    // Convert a string to number
+    console.log("a".charCodeAt(0))
+    ````
 1. Bool  
     ````
     let x = true;
     ````
+1. Data Type conversion
+    ````
+    // convert a number to string
+    var x = 68
+    var y = x.toString()
+    console.log(y)
+    console.log(typeof(y))
+
+    // convert string to a number
+    var x = "68"
+    var y = parseInt(x)
+    console.log(y)
+    console.log(typeof(y))
+    ````
+## Function 
+
+    Function is a reusable block of code
+    
+    ````
+    function sum(a, b) {
+        return a + b;
+    }
+
+    console.log(sum(1,3))
+    console.log(sum(3,5))
+    ````
+    
+    **Quiz** 
+
+      write a function to calculate slope? Make sure you have considered all scenario
+
+      ````
+      function slope(x1, y1, x2, y2) {
+      }
+      console.log(slope(2,4,6,8))
+      ````
+
+    
+
+## Object
+
+    Some kinds of key-value pair. for example, 
+    
+    ````
+    let person = {
+        firstName: "James",
+        lastName: "Bond",
+        salary: 120000,
+    }
+    
+    // Access the object
+    console.log(person.lastName)
+    console.log(person["firstName"])
+    ````
+  **Quiz** 
+
+1. Define an object that describes a cirle in the X-Y plane
+2. Define an object that describes a cat
+3. rewrite the slope function using object
+  
+  ````
+  function slope(point1, point2) {
+  }
+  // Please define point1 and point2 below
+  // end of definition
+  console.log(slope(point1, point2))
+  ````  
