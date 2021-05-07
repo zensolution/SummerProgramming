@@ -65,26 +65,3 @@
     }         
     document.write("Loop stopped!");
     ````
-## function 
-
-    Function is a reusable block of code
-    
-    ````
-    function sum(a, b) {
-        return a + b;
-    }
-
-    console.log(sum(1,3))
-    console.log(sum(3,5))
-    ````
-### Quiz 
-  
-  write a function to calculate slope? Make sure you have considered all scenario
-  
-  ````
-  function slope(x1, y1, x2, y2) {
-  }
-  console.log(slope(2,4,6,8))
-  ````
-
-    
