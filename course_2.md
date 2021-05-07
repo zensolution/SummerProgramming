@@ -42,26 +42,109 @@
       }
     ````
     
+    Implement guess function 
+    ````
+      console.log(guess("o")) // should print "vowel sound"
+      console.log(guess("b")) // should print "consonant sound"
+      
+      // Assume they are all lower case
+      function guess(str) {
+        // implement your code
+      }
+    ````
+    
 1. while statement
     ````
     var count = 0;
-    document.write("Starting Loop ");
+    console.log("Starting Loop ");
 
     while (count < 10) {
-       document.write("Current Count : " + count + "<br />");
-       count++;
+       console.log("Current Count : " + count + "<br />");
+       count++;  // equival to count = count + 1
     }
 
-    document.write("Loop stopped!");
+    console.log("Loop stopped!");
     ````
+    **Quiz**
+    
+    What does the following code output? 
+    ````
+      var i = 0;
+      while (i < 3) {
+          println("hi");
+          i++;
+      }
+    ````
+    
+    Print repeat star
+    ````
+    loop(5)  // should output *****
+    loop(1)  // should output *
+    loop(0)  // do nothing
+    loop(-1) // should output Error
+    
+    function loop(count) {
+      //implement your code
+    }
+    ````
+    
 1. for loop
     ````
     var count;
-    document.write("Starting Loop" + "<br />");
+    console.log("Starting Loop" + "<br />");
 
     for(count = 0; count < 10; count++) {
-       document.write("Current Count : " + count );
-       document.write("<br />");
+       console.log("Current Count : " + count );
+       console.log("<br />");
     }         
-    document.write("Loop stopped!");
+    console.log("Loop stopped!");
+    ````
+    
+    **Quiz**
+    
+    Implement a reverse function
+    ````
+      reverse("Hello") // should output olleH
+      
+      //Hint. You can use String length and charAt function
+      
+      function reverse(str) {
+        var retval = ""
+        // implement your code
+        return retval
+      }
+    ````    
+    
+    Implement a reverse Integer function
+    ````
+      reverse(321) // should output 123
+      reverse(210) // should output 12
+      reverse(-123) // should output -321
+      
+      function reverse(x) {
+        // implement your code
+      }
+    ````     
+    
+1. Loop can be nested 
+1. Jumps 
+
+    ````
+    for(count = 0; count < 10; count++) {
+       console.log(count)
+       if ( count == 3) {
+         break;
+       }
+    }         
+    ````
+    
+    ````
+    function run() {
+        for(count = 0; count < 10; count++) {
+           console.log(count)
+           if ( count == 3) {
+             return count;
+           }
+        }     
+    }    
     ````
