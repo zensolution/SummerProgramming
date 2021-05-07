@@ -130,5 +130,15 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     ````
 1. Data Type conversion
     ````
-    let x = true;
+    // convert a number to string
+    var x = 68
+    var y = x.toString()
+    console.log(y)
+    console.log(typeof(y))
+
+    // convert string to a number
+    var x = "68"
+    var y = parseInt(x)
+    console.log(y)
+    console.log(typeof(y))
     ````
