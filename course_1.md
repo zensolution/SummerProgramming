@@ -12,16 +12,16 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     let y = x + 3;
     ````
 1. Comment
-  - Online comment: //
-    ````
-    // This is a commit
-    ````
-  - Multiline comment: /* */
-    ````
-    /*
-     *  I have a lot to say
-     */ 
-    ````
+      - Online comment: //
+        ````
+        // This is a commit
+        ````
+      - Multiline comment: /* */
+        ````
+        /*
+         *  I have a lot to say
+         */ 
+        ````
 1. Print something to console
     ````
     let x = 5;
@@ -70,11 +70,13 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
         console.log(Math.round(0.9));
 
         console.log(Math.round(1.1));
-        ````        
+        ````    
+        
     **Quiz:**
         ````
         Use Math library to print the maximum value of 5.4^3 and 3.5^4
         ````
+        
     **Reference:**
         More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
 
@@ -109,11 +111,13 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     console.log(str.substring(2));
     ````
     **Quiz:**
-        ````
+        
         Find if "of" exits in the string "This is the best time, this is the worst time"
+        
         Find the 8th character in the string "This is the best time, this is the worst time"
-        ````
+    
     **Reference:**
+        
         More String library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   
 1. Character
     ````
