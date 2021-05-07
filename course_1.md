@@ -162,7 +162,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     console.log(person.lastName)
     console.log(person["firstName"])
     ````
-### Quiz 
+  **Quiz** 
 
 1. Define an object that describes a cirle in the X-Y plane
 2. Define an object that describes a cat
