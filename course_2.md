@@ -46,6 +46,20 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````
     
+    Implement a function to tell if a number can be divided by 3 or 5
+    ````
+      console.log(isDividableBy3Or5(10)) // should print true
+      console.log(isDividableBy3Or5(9)) // should print true
+      console.log(isDividableBy3Or5(17)) // should print false
+      
+      function isDividableBy3Or5(x) {
+        // implement your code
+      }
+      //Hint. use something like if (conditionA and conditionB) { // ... }
+      
+    ````    
+    
+    
     Implement guess function 
     ````
       console.log(guess("o")) // should print "vowel sound"
