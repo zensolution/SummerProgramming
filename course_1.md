@@ -1,7 +1,6 @@
 ## Pre Course 
 
-https://www.youtube.com/watch?v=Ukg_U3CnJWI
-
+https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=15
 
 ## Basic Javascript Syntax
 
@@ -75,7 +74,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     **Quiz:**
         ````
         Use Math library to print the maximum value of 5.4^3 and 3.5^4
-        ````
+        ```
         
     **Reference:**
         More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
@@ -112,6 +111,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     ````
     **Quiz:**
         
+        // Hint: check string indexOf method
         Find if "of" exits in the string "This is the best time, this is the worst time"
         
         Find the 8th character in the string "This is the best time, this is the worst time"
@@ -128,6 +128,10 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
     // Convert a string to number
     console.log("a".charCodeAt(0))
     ````
+    
+    **Reference:**        
+        ASCII table. Plear check this link. [&#8594;](https://www.youtube.com/watch?v=zB85kTs-sEw)   
+    
 1. Bool  
     ````
     let x = true;

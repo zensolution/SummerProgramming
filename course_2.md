@@ -1,3 +1,7 @@
+## Pre course video
+
+https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=13
+
 ## Control Flow
 
 1. If Statement
@@ -23,13 +27,18 @@
        console.log("History Book");
     } else if( book == "maths" ) {
        console.log("Maths Book");
-    } else if( book == "economics" ) {
-       document.write("Economics Book");
     } else {
        console.log("Unknown Book<");
     } 
     ````
     
+    ````
+      //Logical AND Expression
+      x && y
+      
+      //Logical OR Expression
+      x || y      
+    ````
     **Quiz**
     
     Implement abs function 
@@ -41,6 +50,19 @@
         // implement your code
       }
     ````
+    
+    Implement a function to tell if a number can be divided by 3 or 5
+    ````
+      console.log(isDividableBy3Or5(10)) // should print true
+      console.log(isDividableBy3Or5(9)) // should print true
+      console.log(isDividableBy3Or5(17)) // should print false
+      
+      function isDividableBy3Or5(x) {
+        // implement your code
+      }
+      //Hint. use something like if (conditionA and conditionB) { // ... }
+      
+    ````        
     
     Implement guess function 
     ````
@@ -87,7 +109,17 @@
       //implement your code
     }
     ````
-    
+     
+    Write a program and output 9 x 9 Multiplication table
+    Hint: you can use nested loop
+    ````
+    1 * 1 = 1
+    2 * 1 = 2 2 * 2 = 4
+    3 * 1 = 3 3 * 2 = 6 3 * 3 = 9
+    ...
+    9 * 1 = 9 ... ...         9 * 9 = 81
+    ````   
+   
 1. for loop
     ````
     var count;
@@ -126,7 +158,23 @@
       }
     ````     
     
-1. Loop can be nested 
+    sigma function
+    ````
+      console.log(sigma(2, 5)) // should output 2+3+4+5=14
+      
+      function sigma(begin, end) {
+        // implement your code
+      }
+    ````     
+     
+    sigma function. but only calculate value can be divided by 8
+    ````
+      console.log(sigma(2, 16)) // should output 8 + 16 = 24
+      
+      function sigma(begin, end) {
+        // implement your code
+      }
+    ````        
 1. Jumps 
 
     ````

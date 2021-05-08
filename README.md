@@ -15,6 +15,10 @@ No prior programming experience required
 1. Register an account at github.com. We can discuss course idea here(Issues Tab). Since github is an open platform, please don't leave any personal information.
 1. Install github desktop https://desktop.github.com/
 
+## Pre-course video
+
+https://www.youtube.com/watch?v=Ukg_U3CnJWI
+
 ## Goal 
 1. Introduce basic computation concept, including data type, control flow and data structure
 2. Develop confidence to apply programming techinque to problems
@@ -23,7 +27,7 @@ No prior programming experience required
 ## Course Iteration 1
 1. Javascript Syntax and basic type [&#8594;](course_1.md)
 2. Javascript control flow [&#8594;](course_2.md)
-3. Basic Data Structure (String, Set, Array and Map) and frequently used build-in functions
+3. Basic Data Structure (String, Set, Array and Map)
 4. Quiz to implement function to use the data structure learned. (we may need two courses) 
 5. Homework: learn Markdown format
 6. Basic usage of Git and Learn HTML5
