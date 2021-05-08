@@ -23,7 +23,7 @@ No prior programming experience required
 ## Course Iteration 1
 1. Javascript Syntax and basic type [&#8594;](course_1.md)
 2. Javascript control flow [&#8594;](course_2.md)
-3. Basic Data Structure (String, Set, Array and Map) and frequently used build-in functions
+3. Basic Data Structure (String, Set, Array and Map)
 4. Quiz to implement function to use the data structure learned. (we may need two courses) 
 5. Homework: learn Markdown format
 6. Basic usage of Git and Learn HTML5
