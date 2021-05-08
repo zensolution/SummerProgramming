@@ -1,3 +1,7 @@
+## Pre course video
+
+https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=13
+
 ## Control Flow
 
 1. If Statement
