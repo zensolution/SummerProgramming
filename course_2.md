@@ -27,13 +27,18 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
        console.log("History Book");
     } else if( book == "maths" ) {
        console.log("Maths Book");
-    } else if( book == "economics" ) {
-       document.write("Economics Book");
     } else {
        console.log("Unknown Book<");
     } 
     ````
     
+    ````
+      //Logical AND Expression
+      x && y
+      
+      //Logical OR Expression
+      x || y      
+    ````
     **Quiz**
     
     Implement abs function 
@@ -57,8 +62,7 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
       //Hint. use something like if (conditionA and conditionB) { // ... }
       
-    ````    
-    
+    ````        
     
     Implement guess function 
     ````
@@ -105,7 +109,17 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       //implement your code
     }
     ````
-    
+     
+    Write a program and output 9 x 9 Multiplication table
+    Hint: you can use nested loop
+    ````
+    1 * 1 = 1
+    2 * 1 = 2 2 * 2 = 4
+    3 * 1 = 3 3 * 2 = 6 3 * 3 = 9
+    ...
+    9 * 1 = 9 ... ...         9 * 9 = 81
+    ````   
+   
 1. for loop
     ````
     var count;
@@ -144,7 +158,23 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````     
     
-1. Loop can be nested 
+    sigma function
+    ````
+      console.log(sigma(2, 5)) // should output 2+3+4+5=14
+      
+      function sigma(begin, end) {
+        // implement your code
+      }
+    ````     
+     
+    sigma function. but only calculate value can be divided by 8
+    ````
+      console.log(sigma(2, 16)) // should output 8 + 16 = 24
+      
+      function sigma(begin, end) {
+        // implement your code
+      }
+    ````        
 1. Jumps 
 
     ````
