@@ -15,6 +15,10 @@ No prior programming experience required
 1. Register an account at github.com. We can discuss course idea here(Issues Tab). Since github is an open platform, please don't leave any personal information.
 1. Install github desktop https://desktop.github.com/
 
+## Pre-course video
+
+https://www.youtube.com/watch?v=Ukg_U3CnJWI
+
 ## Goal 
 1. Introduce basic computation concept, including data type, control flow and data structure
 2. Develop confidence to apply programming techinque to problems
