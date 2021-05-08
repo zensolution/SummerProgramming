@@ -1,7 +1,6 @@
 ## Pre Course 
 
-https://www.youtube.com/watch?v=Ukg_U3CnJWI
-
+https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=15
 
 ## Basic Javascript Syntax
 
