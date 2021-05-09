@@ -70,12 +70,14 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
         
     **Quiz:**
         
-        Use Math library to print the maximum value of 5.4^3 and 3.5^4
-        
+        Use Math library to print the maximum value of 5.4^3 and 3.5^4       
         
     **Reference:**
+    
         More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
 
+        Find the method that can generate a rand integer?
+        
 1. String
     ````
     var name = "John Doe";
@@ -115,7 +117,10 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
     
     **Reference:**
         
-        More String library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   
+        More String library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
+        
+        Find the method 
+        
 1. Character
     ````
     // Convert a number to a string
