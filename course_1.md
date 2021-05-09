@@ -4,12 +4,19 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
 
 ## Basic Javascript Syntax
 
+1. A very small javascript application
+    ````
+    console.log("Hello World!")
+    ````
+    
 1. Define Variable - we use variable to store things
+
     ````
     let x = 5;
     let title = "Natual Selection";
     let y = x + 3;
     ````
+    
 1. Comment
       - Online comment: //
         ````
@@ -21,12 +28,7 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
          *  I have a lot to say
          */ 
         ````
-1. Print something to console
 
-    ````
-    let x = 5;
-    console.log(x)
-    ````
 **Quiz:**
 
     Define a variable "name" with your name and print it out    
@@ -46,6 +48,12 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
         *   Multiply
         /   Divide
         %   Remainder
+  
+    **Order of Operation:**
+    
+        Same as math
+        
+        Use ( ) to make your code cleaner 
         
     **Quiz:**
     
@@ -76,7 +84,7 @@ https://www.youtube.com/watch?v=DuDz6B4cqVc&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
     
         More Math library. Plear check this link. [&#8594;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)   
 
-        Find the method that can generate a rand integer?
+        Find the method that can generate a random integer?
         
 1. String
     ````
