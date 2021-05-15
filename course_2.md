@@ -97,29 +97,17 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````
     
-    Implement a function to tell if a number can be divided by 3 or 5
+    If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
     ````
-      console.log(isDividableBy3Or5(10)) // should print true
-      console.log(isDividableBy3Or5(9)) // should print true
-      console.log(isDividableBy3Or5(17)) // should print false
+       console.log(greeting(8))   // print "Good morning" 
+       console.log(greeting(13))  // print "Good day"
+       console.log(greeting(22))  // print "Good evening"
+       
+       function greeting(hour) {
+         //implement your code
+       }
       
-      function isDividableBy3Or5(x) {
-        // implement your code
-      }
-      //Hint. use something like if (conditionA and conditionB) { // ... }
-      
-    ````        
-    
-    Implement guess function 
-    ````
-      console.log(guess("o")) // should print "vowel sound"
-      console.log(guess("b")) // should print "consonant sound"
-      
-      // Assume they are all lower case
-      function guess(str) {
-        // implement your code
-      }
-    ````
+    ````            
     
 1. while statement
     ````
@@ -146,25 +134,22 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
     
     Print repeat star
     ````
-    loop(5)  // should output *****
-    loop(1)  // should output *
-    loop(0)  // do nothing
-    loop(-1) // should output Error
+    loop(5)  // should output 
+    /* should output 
+        *
+        **
+        ***
+        ****
+        *****
+    */
+    
     
     function loop(count) {
       //implement your code
     }
+    
+    // Hint, please experiment "*".repeat(5)
     ````
-     
-    Write a program and output 9 x 9 Multiplication table
-    Hint: you can use nested loop
-    ````
-    1 * 1 = 1
-    2 * 1 = 2 2 * 2 = 4
-    3 * 1 = 3 3 * 2 = 6 3 * 3 = 9
-    ...
-    9 * 1 = 9 ... ...         9 * 9 = 81
-    ````   
    
 1. for loop
     ````
@@ -193,17 +178,6 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````    
     
-    Implement a reverse Integer function
-    ````
-      reverse(321) // should output 123
-      reverse(210) // should output 12
-      reverse(-123) // should output -321
-      
-      function reverse(x) {
-        // implement your code
-      }
-    ````     
-    
     sigma function
     ````
       console.log(sigma(2, 5)) // should output 2+3+4+5=14
@@ -212,15 +186,7 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
         // implement your code
       }
     ````     
-     
-    sigma function. but only calculate value can be divided by 8
-    ````
-      console.log(sigma(2, 16)) // should output 8 + 16 = 24
-      
-      function sigma(begin, end) {
-        // implement your code
-      }
-    ````        
+   
 1. Jumps 
 
     ````
