@@ -19,6 +19,42 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
     |   >=     |  greater than or equal to  | x >= 8 | false |
     |   <=     |  less than or equal to  | x <= 8 | false |
 
+  - Logical Operators
+  
+    Given that x = 6 and y = 3, the table below explains the logical operators:
+ 
+    | Operator      | Description | Example     |  
+    | :---        |    :----:   |          ---: |  
+    |  &&      | and       | (x < 10 && y > 1) is true   |  
+    |  \|\|      | or       | (x == 5 \|\| y == 5) is false  |  
+    |  !      | not       | !(x == y) is true   |  
+    
+   **quiz**
+   
+   1.  i, j, and k contain the values 10, 3, and 20, respectively, what is the value of the following logical expression: 
+         
+         j < 4 || j == 5 && i <= k    
+         
+   1. The expression P AND Q is TRUE if either P or Q is TRUE or both are TRUE.
+   
+   3. If p is a Boolean variable, which of the following logical expressions always has the value false?
+        
+        A. p && p
+        
+        B. p || p
+        
+        C. p && !p
+        
+        D. p || !p
+        
+        E. b and d above
+
+   3. True or False? The expression !(n < 5) is equivalent to the expression n > 5.
+   
+        A.	True
+
+        B.	False
+
 ## Control Flow
 
 1. If Statement
