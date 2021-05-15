@@ -2,6 +2,59 @@
 
 https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=13
 
+## Expression
+
+  - Comparison Operators
+
+    // Given that x = 5
+    
+    | Operator      | Description | Comparing     |  Returns |
+    | :---        |    :----:   |          ---: |  ---: |
+    | ==      | Equal to       | x == 8   |  false |
+    |         |         | x == 5     |  true  |
+    |  !=     |  not equal | x != 8 | true |
+    |        |    | x != 5 | false |
+    |   >     |   greater than  | x > 8 | false |
+    |   <     |   less than  | x < 8 | true |
+    |   >=     |  greater than or equal to  | x >= 8 | false |
+    |   <=     |  less than or equal to  | x <= 8 | false |
+
+  - Logical Operators
+  
+    Given that x = 6 and y = 3, the table below explains the logical operators:
+ 
+    | Operator      | Description | Example     |  
+    | :---        |    :----:   |          ---: |  
+    |  &&      | and       | (x < 10 && y > 1) is true   |  
+    |  \|\|      | or       | (x == 5 \|\| y == 5) is false  |  
+    |  !      | not       | !(x == y) is true   |  
+    
+   **quiz**
+   
+   1.  i, j, and k contain the values 10, 3, and 20, respectively, what is the value of the following logical expression: 
+         
+         j < 4 || j == 5 && i <= k    
+         
+   1. The expression P AND Q is TRUE if either P or Q is TRUE or both are TRUE.
+   
+   3. If p is a Boolean variable, which of the following logical expressions always has the value false?
+        
+        A. p && p
+        
+        B. p || p
+        
+        C. p && !p
+        
+        D. p || !p
+        
+        E. b and d above
+
+   3. True or False? The expression !(n < 5) is equivalent to the expression n > 5.
+   
+        A.	True
+
+        B.	False
+
 ## Control Flow
 
 1. If Statement
@@ -31,14 +84,7 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
        console.log("Unknown Book<");
     } 
     ````
-    
-    ````
-      //Logical AND Expression
-      x && y
-      
-      //Logical OR Expression
-      x || y      
-    ````
+
     **Quiz**
     
     Implement abs function 
@@ -51,29 +97,17 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````
     
-    Implement a function to tell if a number can be divided by 3 or 5
+    If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
     ````
-      console.log(isDividableBy3Or5(10)) // should print true
-      console.log(isDividableBy3Or5(9)) // should print true
-      console.log(isDividableBy3Or5(17)) // should print false
+       console.log(greeting(8))   // print "Good morning" 
+       console.log(greeting(13))  // print "Good day"
+       console.log(greeting(22))  // print "Good evening"
+       
+       function greeting(hour) {
+         //implement your code
+       }
       
-      function isDividableBy3Or5(x) {
-        // implement your code
-      }
-      //Hint. use something like if (conditionA and conditionB) { // ... }
-      
-    ````        
-    
-    Implement guess function 
-    ````
-      console.log(guess("o")) // should print "vowel sound"
-      console.log(guess("b")) // should print "consonant sound"
-      
-      // Assume they are all lower case
-      function guess(str) {
-        // implement your code
-      }
-    ````
+    ````            
     
 1. while statement
     ````
@@ -100,25 +134,22 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
     
     Print repeat star
     ````
-    loop(5)  // should output *****
-    loop(1)  // should output *
-    loop(0)  // do nothing
-    loop(-1) // should output Error
+    loop(5)  // should output 
+    /* should output 
+        *
+        **
+        ***
+        ****
+        *****
+    */
+    
     
     function loop(count) {
       //implement your code
     }
+    
+    // Hint, please experiment "*".repeat(5)
     ````
-     
-    Write a program and output 9 x 9 Multiplication table
-    Hint: you can use nested loop
-    ````
-    1 * 1 = 1
-    2 * 1 = 2 2 * 2 = 4
-    3 * 1 = 3 3 * 2 = 6 3 * 3 = 9
-    ...
-    9 * 1 = 9 ... ...         9 * 9 = 81
-    ````   
    
 1. for loop
     ````
@@ -147,17 +178,6 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
       }
     ````    
     
-    Implement a reverse Integer function
-    ````
-      reverse(321) // should output 123
-      reverse(210) // should output 12
-      reverse(-123) // should output -321
-      
-      function reverse(x) {
-        // implement your code
-      }
-    ````     
-    
     sigma function
     ````
       console.log(sigma(2, 5)) // should output 2+3+4+5=14
@@ -166,15 +186,7 @@ https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XR
         // implement your code
       }
     ````     
-     
-    sigma function. but only calculate value can be divided by 8
-    ````
-      console.log(sigma(2, 16)) // should output 8 + 16 = 24
-      
-      function sigma(begin, end) {
-        // implement your code
-      }
-    ````        
+   
 1. Jumps 
 
     ````

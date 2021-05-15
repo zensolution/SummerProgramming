@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=Ukg_U3CnJWI
 3. Be fluent in developer tool like Markdown and Github
 
 ## Course Iteration 1
-1. Javascript Syntax and basic type [&#8594;](course_1.md)
+1. Basic Javascript [&#8594;](Javascript.md)
 2. Javascript control flow [&#8594;](course_2.md)
 3. Basic Data Structure (String, Set, Array and Map)
 4. Quiz to implement function to use the data structure learned. (we may need two courses) 
