@@ -2,6 +2,23 @@
 
 https://www.youtube.com/watch?v=l26oaHV7D40&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=13
 
+## Expression
+
+  - Comparison Operators
+
+    // Given that x = 5
+    
+    | Operator      | Description | Comparing     |  Returns |
+    | :---        |    :----:   |          ---: |  ---: |
+    | ==      | Equal to       | x == 8   |  false |
+    |         |         | x == 5     |  true  |
+    |  !=     |  not equal | x != 8 | true |
+    |        |    | x != 5 | false |
+    |   >     |   greater than  | x > 8 | false |
+    |   <     |   less than  | x < 8 | true |
+    |   >=     |  greater than or equal to  | x >= 8 | false |
+    |   <=     |  less than or equal to  | x <= 8 | false |
+
 ## Control Flow
 
 1. If Statement
