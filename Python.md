@@ -48,23 +48,22 @@ print(slope)
   trial()
  ````
  
-## Equality and Types
+## VARIABLE TYPES
 
-### VARIABLE TYPES
+| Category  |  Type   |  Example  |
+|---|---|---|
+| Text Type  |  string  | x = "Hello World"  |
+| Numeric Type  | int  | x = 20  |
+|   | int  | x = 20  |
+|   | float  | x = 20.5  |
+| Sequence Type  | list  | x = ["apple", "banana", "cherry"]  |
+|   | tuple  | x = ("apple", "banana", "cherry")  |
+|   | range  | x = range(6)  |
+|Mapping Type| dict | x = {"name" : "John", "age" : 36} |
+| Set Types  |  set | x = {"apple", "banana", "cherry"} |
+| Boolean Type | bool | x = True |
+| Binary Type | bytes | x = b"Hello" 	 |
+|   | bytearray | x = bytearray(5) |
 
-  ````
-   var is20 = false;
-   console.log(typeof is20); // boolean
-   
-   var age = 16; 
-   console.log(typeof age); // number
-    
-   var lastName = "Bae"; 
-   console.log(typeof lastName); // string 
-   
-   var fruits = ["Apple", "Banana", "Kiwi"];
-   console.log(typeof fruits); // object ΩΩ
-   
-   var me = {firstName:"Sammie", lastName:"Bae"};
-   console.log(typeof me); // object    
-  ````
+### Equality
+
