@@ -10,6 +10,7 @@
 ## Pre-course video
 
 https://www.youtube.com/watch?v=MvTSPwftvyo
+
 https://www.youtube.com/watch?v=R2pIutTspQA
 
 ## Goal 
