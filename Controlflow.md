@@ -6,14 +6,14 @@
     
     | Operator      | Description | Comparing     |  Returns |
     | :---        |    :----:   |          ---: |  ---: |
-    | ==      | Equal to       | x == 8   |  false |
-    |         |         | x == 5     |  true  |
-    |  !=     |  not equal | x != 8 | true |
+    | ==      | Equal to       | x == 8   |  False |
+    |         |         | x == 5     |  True  |
+    |  !=     |  not equal | x != 8 | True |
     |        |    | x != 5 | false |
-    |   >     |   greater than  | x > 8 | false |
-    |   <     |   less than  | x < 8 | true |
-    |   >=     |  greater than or equal to  | x >= 8 | false |
-    |   <=     |  less than or equal to  | x <= 8 | false |
+    |   >     |   greater than  | x > 8 | False |
+    |   <     |   less than  | x < 8 | True |
+    |   >=     |  greater than or equal to  | x >= 8 | False |
+    |   <=     |  less than or equal to  | x <= 8 | False |
 
   - Logical Operators
   
@@ -21,31 +21,31 @@
  
     | Operator      | Description | Example     |  
     | :---        |    :----:   |          ---: |  
-    |  &&      | and       | (x < 10 && y > 1) is true   |  
-    |  \|\|      | or       | (x == 5 \|\| y == 5) is false  |  
-    |  !      | not       | !(x == y) is true   |  
+    |  and     | and       | (x < 10 and y > 1) is True   |  
+    |  or      | or       | (x == 5 or y == 5) is False  |  
+    |  not      | not       |  not(x == y) is true   |  
     
    **quiz**
    
-   1.  i, j, and k contain the values 10, 3, and 20, respectively, what is the value of the following logical expression: 
+   1.  i = 10, j = 3, k = 20, what is the value of the following logical expression: 
          
-         j < 4 || j == 5 && i <= k    
+         j < 4 or j == 5 and i <= k    
          
-   1. The expression P AND Q is TRUE if either P or Q is TRUE or both are TRUE.
+   1. The expression P and Q is TRUE if either P or Q is TRUE or both are TRUE.
    
    3. If p is a Boolean variable, which of the following logical expressions always has the value false?
         
-        A. p && p
+        A. p and p
         
-        B. p || p
+        B. p or p
         
-        C. p && !p
+        C. p and !p
         
-        D. p || !p
+        D. p or !p
         
         E. b and d above
 
-   3. True or False? The expression !(n < 5) is equivalent to the expression n > 5.
+   3. True or False? The expression not (n < 5) is equivalent to the expression n > 5.
    
         A.	True
 
@@ -56,80 +56,63 @@
 1. If Statement
 
     ````
-    var age = 15;
-    
-    // if
-    if( age > 18 ) {
-       console.log("You are adult.");
-    }
-    
-    // if ... else ...
-    if( age > 18 ) {
-       console.log("You can vote.");
-    } else {
-       console.log("You can not vote");
-    }
-    
-    // if ... else if ...
-    var book = "maths";
-    if( book == "history" ) {
-       console.log("History Book");
-    } else if( book == "maths" ) {
-       console.log("Maths Book");
-    } else {
-       console.log("Unknown Book<");
-    } 
+    book = "maths"
+
+    if book == "history":
+        print("History Book")
+    elif book == "maths":
+        print("Math Book")
+    else:
+        print("Unknown Book")  
     ````
 
     **Quiz**
     
     Implement abs function 
     ````
-      console.log(abs(10)) // should print 10
-      console.log(abs(-10)) // should print 10
-      
-      function abs(x) {
-        // implement your code
-      }
+      def abs(x):
+          #Implement your code below 
+
+      print(abs(10)) # should print 10
+      print(abs(-10)) # should print 10
     ````
     
     If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
     ````
-       console.log(greeting(8))   // print "Good morning" 
-       console.log(greeting(13))  // print "Good day"
-       console.log(greeting(22))  // print "Good evening"
-       
-       function greeting(hour) {
-         //implement your code
-       }
-      
+        def greeting(hour):
+          # Implement your code here
+
+       print(greeting(8))   # print "Good morning" 
+       print(greeting(13))  # print "Good day"
+       print(greeting(22))  # print "Good evening"             
     ````            
     
 1. while statement
     ````
-    var count = 0;
-    console.log("Starting Loop ");
+    count = 0
+    print("Starting loop")
 
-    while (count < 10) {
-       console.log("Current Count : " + count + "<br />");
-       count++;  // equival to count = count + 1
-    }
+    while count<10:
+        print("Current count : " + str(count))
+        count +=1  # equivalent to "count = count+1"
 
-    console.log("Loop stopped!");
+    print("End loop")
     ````
     **Quiz**
     
     What does the following code output? 
     ````
-      var i = 0;
-      while (i < 3) {
-          println("hi");
-          i++;
-      }
+    i = 0
+    while i < 3:
+        print("hi")
+        i += 1
     ````
     
     Print repeat star
     ````
+    def loop(count):
+      ## Implement your code
+      
     loop(5)  // should output 
     /* should output 
         *
@@ -139,12 +122,7 @@
         *****
     */
     
-    
-    function loop(count) {
-      //implement your code
-    }
-    
-    // Hint, please experiment "*".repeat(5)
+    # Hint, check this link. https://www.w3schools.in/python-tutorial/repeat-string-in-python/
     ````
    
 1. for loop
