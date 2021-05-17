@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=R2pIutTspQA
 
 ## Course Iteration 1
 1. Basic Python [&#8594;](Python.md)
-2. Python control flow [&#8594;](course_2.md)
+2. Python control flow [&#8594;](Controlflow.md)
 3. Basic Data Structure (String, Set, Array and Map)
 4. Quiz to implement function to use the data structure learned. (we may need two courses) 
 5. Homework: learn Markdown format
