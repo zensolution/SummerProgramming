@@ -127,58 +127,38 @@
    
 1. for loop
     ````
-    var count;
-    console.log("Starting Loop" + "<br />");
-
-    for(count = 0; count < 10; count++) {
-       console.log("Current Count : " + count );
-       console.log("<br />");
-    }         
-    console.log("Loop stopped!");
+    for i in range(8):
+      print(i)
+    
+    for i in range(2,6):
+      print(i)
     ````
     
     **Quiz**
     
-    Implement a reverse function
-    ````
-      reverse("Hello") // should output olleH
-      
-      //Hint. You can use String length and charAt function
-      
-      function reverse(str) {
-        var retval = ""
-        // implement your code
-        return retval
-      }
-    ````    
-    
     sigma function
     ````
-      console.log(sigma(2, 5)) // should output 2+3+4+5=14
-      
-      function sigma(begin, end) {
+      def sigma(begin, end):
         // implement your code
-      }
+      
+      print(sigma(2, 5)) // should output 2+3+4+5=14            
     ````     
    
-1. Jumps 
+1. Break 
 
     ````
-    for(count = 0; count < 10; count++) {
-       console.log(count)
-       if ( count == 3) {
-         break;
-       }
-    }         
+    for letter in 'Python':     # First Example
+       if letter == 'h':
+          break
+       print 'Current Letter :', letter
     ````
     
+1. Continue
+
     ````
-    function run() {
-        for(count = 0; count < 10; count++) {
-           console.log(count)
-           if ( count == 3) {
-             return count;
-           }
-        }     
-    }    
+    for letter in 'Python':     # First Example
+       if letter == 'h':
+          continue
+       print 'Current Letter :', letter
     ````
+
