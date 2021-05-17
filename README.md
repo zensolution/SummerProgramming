@@ -22,8 +22,7 @@ https://www.youtube.com/watch?v=R2pIutTspQA
 1. Basic Python [&#8594;](Python.md)
 2. Python control flow [&#8594;](Controlflow.md)
 3. List [&#8594;](List.md)
-4. Basic Data Structure (String, Set, Array and Map)
-5. Quiz to implement function to use the data structure learned. (we may need two courses) 
+4. Dictionary [&#8594;](Dictionary.md)
 6. Homework: learn Markdown format
 7. Basic usage of Git and Learn HTML5
 
