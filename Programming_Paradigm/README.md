@@ -76,7 +76,7 @@
 
     volumeBig = getVolume(widthBig, lengthBig, heightBig)
     ````
-1. Add Unit 
+1. Add Unit and get Metric Volume
 
     ````
     def getVolume(width, length, height):
@@ -117,3 +117,91 @@
     volumeBig = getVolume(widthBig, lengthBig, heightBig)
     metricVolumeBig = getMetricVolume(widthBig, lengthBig, heightBig, unitBig)
     ````
+    
+## Example of Object Oriented Programming
+
+1. Calculate the volume of a Box
+
+        ````
+        class Box:
+          def __init__(self, width, length, height):
+            self.length = length
+            self.width = width
+            self.height = height
+
+          def getVolume(self):  
+              return self.height * self.width * self.length
+
+        box = Box(10, 20, 20)
+        volume = box.getVolume()
+        ````
+        
+1. Add Big Box and Small Box
+
+        ````
+        class Box:
+          def __init__(self, width, length, height):
+            self.length = length
+            self.width = width
+            self.height = height
+
+          def getVolume(self):  
+              return self.height * self.width * self.length
+
+        smallBox = Box(10, 20, 20)
+        volume = smallBox.getVolume()
+
+        bigBox = Box(100, 200, 200)
+        volume = bigBox.getVolume()
+        ````
+        
+1. Add Validation
+
+        ````
+        class Box:
+          def __init__(self, width, length, height):
+            if length <= 0 and wdith <= 0 and height <= 0:
+              raise Exception("Invalid parameter")
+            self.length = length
+            self.width = width
+            self.height = height
+
+          def getVolume(self):  
+              return self.height * self.width * self.length
+
+        smallBox = Box(10, 20, 20)
+        volume = smallBox.getVolume()
+
+        bigBox = Box(100, 200, 200)
+        volume = bigBox.getVolume()
+        ````
+        
+1. Add Unit and get Metric Volume
+
+        ````
+        class Box:
+          def __init__(self, width, length, height, unit):
+            if length <= 0 and wdith <= 0 and height <= 0:
+              raise Exception("Invalid parameter")
+            self.length = length
+            self.width = width
+            self.height = height
+            self.unit = unit
+
+          def getVolume(self):  
+              return self.height * self.width * self.length
+
+          def getMetricVolume(self):
+            volume = getVolume(self)
+            if self.unit == "inch":
+              return volume * (2.54 ** 3)
+            else:
+              return volume  
+
+        smallBox = Box(10, 20, 20, "inch")
+        volume = smallBox.getMetricVolume()
+
+        bigBox = Box(100, 200, 200, "cm")
+        volume = bigBox.getMetricVolume()
+        ````
+       
