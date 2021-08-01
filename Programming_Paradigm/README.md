@@ -205,3 +205,46 @@
         volume = bigBox.getMetricVolume()
         ````
        
+## Definition of Object
+
+<pre>
+Television
+
+Property:
+
+  Status: ON / OFF  (bool)
+  Size: 50 inch or 46 inch  (int)  (readonly)
+  Channel: 1, 3  (int) 
+  Volume: 10 (int)
+  
+Method:
+  TurnOn
+  TurnOff
+  SwitchChannel
+  ChangeVolume
+  SwitchChannel
+</pre>  
+
+## Analysis a system in an Object Oriented methodlogy
+
+This is a system built for Guilderland High School to manage its students. There are four grade in Guilderland High School. One student must be in one grade. Student can select at least four courses and accumulated at least 5 credit. 
+
+For each course, student will have a score from 0 to 100. Student will failed a course if the score is less than 60.
+
+Each course will have 1 or 2 credits.
+
+School should be able to find who failed the course and rank the student by their gpa based on their grade.
+
+## Summary 
+
+| | Object Oriented | Procedure |
+|--|--|--|
+| Designed Around | Data and Objects |  Actions and Logic |
+| What and How | How to do is embedded inside object and triggered by what to do | No such separation. A series of logic procedures process and pass on the data and produce output|
+|              | "Message passing" is a form of communication between objects |  |
+
+## Appendix 
+
+### Markdown
+
+[Markdown Guidance](https://www.markdownguide.org/basic-syntax/)
