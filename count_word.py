@@ -1,4 +1,6 @@
-# Hint. You can use string split method to parse the words. Please refer to https://www.geeksforgeeks.org/python-string-split/
+# Hint1. You can use string split method to parse the words. Please refer to https://www.geeksforgeeks.org/python-string-split/
+# Hint2. We can use get() and provide a default value when the key is not yet in the dictionary. Please refer to  https://www.programiz.com/python-programming/methods/dictionary/get
+
 
 def word_count(sentence):
   pass
