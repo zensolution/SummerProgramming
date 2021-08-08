@@ -67,6 +67,11 @@ def changeDirection(key, direction):
       direction = 2
   return direction
 
+def drawApple(screen, apple, gridSize):
+    radius = gridSize // 2
+    centerPoint = (apple[0]*gridSize+radius, apple[1]*gridSize+radius)
+    pygame.draw.circle(screen, Red, centerPoint, radius)
+
 width = 600
 height = 600
 gridSize = 60
@@ -77,8 +82,12 @@ direction = 0 # 1 UP 2 DOWN 3 LEFT 4 RIGHT 0 STOP
 screen = initCanvas(width, height)
 
 snake = [(5, 5)]
+apple = (2, 2)
+clock = pygame.time.Clock()
+speed = 3
 
 while True:
+    clock.tick(speed)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
           pygame.quit()
@@ -94,4 +103,6 @@ while True:
       
     drawGrid(screen, rows, columns, width, height, gridSize) 
     drawSnake(screen, snake, gridSize)
+    drawApple(screen, apple, gridSize)
+
     pygame.display.update()
