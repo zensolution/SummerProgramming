@@ -2,7 +2,7 @@ Student Story - Submit Scores:
 
 ````
 As a student, I want to submit my score of PE, Math and Language Art, so that Teacher can know my scores 
-Scores are in 5 points. 5 means Excellent, Less than 2 means Failed
+Scores are in 5 points. 5 means Excellent, Less than 3 means Failed
 ````
 
 Student Story - Excellent:
