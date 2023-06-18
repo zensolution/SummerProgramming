@@ -75,13 +75,8 @@
   
 3. Special character list
     ````
-    \' Single quotation mark
     \" Double quotation mark
     \\ Backslash
-    \t Tab
-    \b Backspace
-    \r Carriage return
-    \f Formfeed
     \n Newline
     ````
 
@@ -89,3 +84,37 @@
     //Guess the output
     System.out.println("Your skin like dawn\nMine like musk");
     ````
+    
+  4. Quiz
+  
+    ````
+    Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
+    (A) System.out.print(1);
+    (B) System.out.print("1");
+    (C) System.out.print(side1);
+    (D) System.out.print("side1");
+    (E) All of the above statements will compile.
+    ````
+    
+ ### Variables & Assignment
+ 
+ The syntax of an assignment statement is **type identifier = data;**
+ 
+ Keypoint:
+   - Once a variable is given a type, its type should not be changed
+   - use the concatenation operator to combine strng and numeric
+   
+     ````
+       string name = "Sam";
+       int grade = 9;
+       System.out.println(name + " is a " + grade + " grader.");
+     ````
+   
+ Quiz
+     ````
+     Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
+     (A) System.out.print("Ilove Java");
+     (B) System.out.println("Ilove" + "Java");
+     (C) System.out.print(1 + "love" + Java");
+     (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
+     ````
