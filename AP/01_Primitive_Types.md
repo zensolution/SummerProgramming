@@ -133,3 +133,40 @@
   
 1. Arithmetic Operations
 
+      - precedence: (); * / %; + - 
+      - integer:   
+        question: 4/5 = ?  5/4 = ?
+      - cast: 
+        question: (double)(4/)5 = ? or 4/(double)5<br/>
+        ATTN: <br/>
+          operation on two integers: integer<br/>
+          operation on integer and double: double
+      
+1. Speical operator
+
+        ````
+        i++; // equal to i = i + 1;
+        a += b; // equal to a = a + b;
+        a -= b; // equal to a = a - b;
+        a *= b; // equal to a = a * b;
+        a /= b; // equal to a = a / b;
+        a %= b; // equal to a = a % b;        
+        ````
+        
+1. Quiz
+
+       ````
+            Consider the following code segment:
+              int a = 3;
+              int b = 6;
+              int c = 8;
+              int d = a / b;
+              c /= d;
+              System.out.print(c);
+            Which of the following will be output by the code segment?
+            (A) 4
+            (B) 8
+            (C) 12
+            (D) 16
+            (E) There will be no output because of a run-time error.        
+        ````
