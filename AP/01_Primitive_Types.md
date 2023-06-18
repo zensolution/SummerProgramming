@@ -111,6 +111,7 @@
      ````
    
  Quiz
+ 
      ````
      Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
      (A) System.out.print("Ilove Java");
@@ -118,3 +119,15 @@
      (C) System.out.print(1 + "love" + Java");
      (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
      ````
+### Four Data Types
+
+1. Data Types
+    - integer (int): positive numbers, negative numbers, and zero. 
+    - double (double): positive, negative, or zero, and can be a fraction or decimal. 
+    - boolean (boolean): true or false
+    - character (char): a single character, using single quote like 'A', '5'
+  
+    ATTN: both int and double has limitation. but you don't need to memorize it. but please remember double can declare a number that is larger than int.
+  
+1. Arithmetic Operations
+
