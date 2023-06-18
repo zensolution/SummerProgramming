@@ -47,6 +47,43 @@
   (B) /* This is a comment */
   (C) // myName is a good identifier name
   ````
- 
- 
- 
+## OBJECTS & PRIMITIVE DATA
+### Output
+1. System.out.print() vs System.out.println()
+  ````
+  // Guess the output of the following statement
+  System.out.print("This is ");
+  System.out.println("a good timing");
+  
+  // Guess the output of the following statement
+  System.out.println("This is ");
+  System.out.println("a good timing");
+  ````
+2. Escape
+  Question? How do I print the sentence. **My nickname is "Skywalker"**
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/> 
+  Java uses escape sequence, a small piece of coding beginning with a backslash (\) used to indicate specific characters
+  For example:
+  
+  ````System.out.println("My nickname is \"Skywalker\"");````
+3. Special character list
+  ````
+  \' Single quotation mark
+  \" Double quotation mark
+  \\ Backslash
+  \t Tab
+  \b Backspace
+  \r Carriage return
+  \f Formfeed
+  \n Newline
+  ````
+  
+  ````
+  //Guess the output
+  System.out.println("Your skin like dawn\nMine like musk");
+  ````
