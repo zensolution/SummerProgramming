@@ -1,30 +1,30 @@
 ## PROGRAMMING STYLE
 ### Comments, Identifiers, White Space
 1. Comments
-  - In-line, or short, comments appear after or near a statement and are preceded by two forward slashes (“//”) 
-    ````
-    // This is a constant to represent PI
-    constant int PI = 3.14159;
-    int radius = 3; // This is a radius of a circle
-    ````
-  - Long comments. begin with (“/*”) and end with (“*/”)
-    ````
-    /* The following code is used to do the following work:
-      1. put meat into water
-      2. heat water into 100 degree
-      3. wait for 30 minutes
-    */
-    private void cook() {
-    }
-    ````
+    - In-line, or short, comments appear after or near a statement and are preceded by two forward slashes (“//”) 
+      ````
+      // This is a constant to represent PI
+      constant int PI = 3.14159;
+      int radius = 3; // This is a radius of a circle
+      ````
+    - Long comments. begin with (“/*”) and end with (“*/”)
+      ````
+      /* The following code is used to do the following work:
+        1. put meat into water
+        2. heat water into 100 degree
+        3. wait for 30 minutes
+      */
+      private void cook() {
+      }
+      ````
 2. Identifier
-  - contain any combination of letters, numbers, and underscore ("_")
-  - starts with letter
-  - no space
-  - Optional. Identifier should be self-explained. For example, radius is better than r. wheelRadius is better radius
-  - Optional. Usually starts with lower case. The following words are capital, like numberOfStudents. 
+    - contain any combination of letters, numbers, and underscore ("_")
+    - starts with letter
+    - no space
+    - Optional. Identifier should be self-explained. For example, radius is better than r. wheelRadius is better radius
+    - Optional. Usually starts with lower case. The following words are capital, like numberOfStudents. 
 3. Whitespace
-  - Used to increase readablity, but doesn't affect functionality
+    - Used to increase readablity, but doesn't affect functionality
   
 ### Compiling & Errors
 1. syntax error
@@ -112,13 +112,13 @@
    
  Quiz
  
-     ````
-     Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
-     (A) System.out.print("Ilove Java");
-     (B) System.out.println("Ilove" + "Java");
-     (C) System.out.print(1 + "love" + Java");
-     (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
-     ````
+       ````
+       Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
+       (A) System.out.print("Ilove Java");
+       (B) System.out.println("Ilove" + "Java");
+       (C) System.out.print(1 + "love" + Java");
+       (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
+       ````
 ### Four Data Types
 
 1. Data Types
