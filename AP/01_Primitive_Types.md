@@ -67,11 +67,11 @@
   <br/>
   <br/>
   <br/> 
-  Java uses escape sequence, a small piece of coding beginning with a backslash (\) used to indicate specific characters
+    Java uses escape sequence, a small piece of coding beginning with a backslash (\) used to indicate specific characters
   
-  For example:
+    For example:
   
-  ````System.out.println("My nickname is \"Skywalker\"");````
+    ````System.out.println("My nickname is \"Skywalker\"");````
   
 3. Special character list
     ````
@@ -87,14 +87,15 @@
     
   4. Quiz
   
-    ````
-    Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
-    (A) System.out.print(1);
-    (B) System.out.print("1");
-    (C) System.out.print(side1);
-    (D) System.out.print("side1");
-    (E) All of the above statements will compile.
-    ````
+        ````
+        Assuming all other statements in the program are correct, each of the following statements 
+        will allow the program to compile EXCEPT
+        (A) System.out.print(1);
+        (B) System.out.print("1");
+        (C) System.out.print(side1);
+        (D) System.out.print("side1");
+        (E) All of the above statements will compile.
+        ````
     
  ### Variables & Assignment
  
@@ -112,13 +113,14 @@
    
  Quiz
  
-       ````
-       Assuming all other statements in the program are correct, each of the following statements will allow the program to compile EXCEPT
-       (A) System.out.print("Ilove Java");
-       (B) System.out.println("Ilove" + "Java");
-       (C) System.out.print(1 + "love" + Java");
-       (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
-       ````
+           ````
+           Assuming all other statements in the program are correct, each of the following statements will 
+           allow the program to compile EXCEPT
+           (A) System.out.print("Ilove Java");
+           (B) System.out.println("Ilove" + "Java");
+           (C) System.out.print(1 + "love" + Java");
+           (D) System.out.println(1 + "love" + "Java"); (E) System.out.print("I love" + " " + "Java");
+           ````
 ### Four Data Types
 
 1. Data Types
