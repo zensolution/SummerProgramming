@@ -36,6 +36,56 @@
     (A) Since the value of x is 0, the first print statement will be performed, producing 1 as the output.
     (B) Since the value of x is 0, the first print statement will be performed, producing 13 as the output.
     (C) Since the value of x is 0, the first print statement will be performed, producing 123 as the output.
-    (D) == is not the correct boolean operator, so a syntax error will be produced by the compiler prior to execution.
-    (E) == is not the correct boolean operator, so a logical error will be produced by the compiler prior to execution.
+    (D) == is not the correct boolean operator, so a syntax error will be produced by the compiler 
+        prior to execution.
+    (E) == is not the correct boolean operator, so a logical error will be produced by the compiler 
+        prior to execution.
+        
+    Consider the following boolean expression. (X && !Y) || (!X && Y)
+    Which of the following condition(s) will always cause the expression to evaluate to true?
+    (A) X is true
+    (B) Y is false
+    (C) X and Y are both true
+    (D) X and Y have the same truth values
+    (E) X and Y have opposite truth values        
     ````
+6. De Morgan’s Law
+    ````
+    !(a && b) is equivalent to !a || !b
+    !(a || b) is equivalent to !a && !b
+    ````
+      - Example
+          ````
+          !(x >=0 && y < 0)
+                  V
+          !(x >=0) || !(y <0)
+                  V
+            x < 0 || y >= 0        
+          ````
+      - Quiz
+      ````
+      !(x ==0 && !(y == 0))
+      
+      Consider the following code segment. boolean a = true, b = false;
+      if (/ * missing code * /) System.out.print("Nice job.");
+      else
+        System.out.print("Nicer job.");
+      
+      Which of the following could be used to replace / * missing code
+        * / so that the output of this block of code is “Nicer job.”?
+        I.a && !b II. !a || b III. !a && b
+        (A) I only
+        (B) I and II only 
+        (C) I and III only 
+        (D) II and III only 
+        (E) I, II, and III    
+        
+      Suppose p and q are declared as boolean variables and have been initialized to unknown truth values.
+      What does the following boolean expression evaluate to?
+         (!p && !q) || !(p || q)
+      (A) The expression always evaluates to true.
+      (B) The expression always evaluates to false.
+      (C) The expression evaluates to true whenever p is false. 
+      (D) The expression evaluates to true whenever q is false.
+      (E) The expression evaluates to false whenever p and q have opposite truth values.        
+      ````
